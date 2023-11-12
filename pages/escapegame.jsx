@@ -27,7 +27,7 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this game.
+            LOREM IPSUM
           </p>
           {/* <a
             href=''

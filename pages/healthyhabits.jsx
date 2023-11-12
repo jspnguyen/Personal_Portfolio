@@ -27,7 +27,7 @@ const netflix = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this web app with 3 others at CalHacks 10.0.
+            CalHacks 10.0 project.
           </p>
           <a
             href='https://github.com/jspnguyen/HealthyHabits'

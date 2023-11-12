@@ -9,7 +9,7 @@ const resume = () => {
         <title>Joseph's Experience</title>
         <meta
           name='description'
-          content='I’m a Software Engineer ^-^'
+          content='I&#39;m a Software Engineer ^-^'
         />
         <link rel='icon' href='/fav.ico' />
       </Head>
@@ -61,7 +61,7 @@ const resume = () => {
             <p className='text-right italic'>Berkeley, CA</p>
           </div>
             <div className='flex flex-wrap'>
-              <p className='text-left py-1 italic flex-1'>Bachelor's Degree in Computer Science</p>
+              <p className='text-left py-1 italic flex-1'>Bachelor&#39;s Degree in Computer Science</p>
               <p className='text-right py-1 italic font-bold flex-1'>Expected May 2025</p>
             </div>
             <p className='text-left py-1'>GPA: 3.6/4.0</p>
@@ -153,7 +153,7 @@ const resume = () => {
             </li>
             <li>
               Created dashboards in React for company fitness apps to analyze 
-              3 years' worth of user exercise data from DynamoDB, allowing the 
+              3 years&#39; worth of user exercise data from DynamoDB, allowing the 
               product team to efficiently assign focuses
             </li>
             <li>

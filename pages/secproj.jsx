@@ -27,7 +27,7 @@ const twitch = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Research project where I collaborated with people.
+            LOREM IPSUM
           </p>
           <a
             href='https://sec-rule-project.github.io/'

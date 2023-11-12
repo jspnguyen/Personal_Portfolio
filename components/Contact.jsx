@@ -30,8 +30,7 @@ const Contact = () => {
                 <h2 className='py-2'>Joseph Nguyen</h2>
                 <p>Software Engineer</p>
                 <p className='py-4'>
-                  Feel free to send me a message if you want to talk for any 
-                  reason or if you want to send me a joke :3
+                  Feel free to send me a message
                 </p>
               </div>
               <div>
