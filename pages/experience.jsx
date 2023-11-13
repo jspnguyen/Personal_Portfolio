@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
-const resume = () => {
+const experience = () => {
   return (
     <>
       <Head>
@@ -43,9 +43,9 @@ const resume = () => {
             </p>
           </div>
           <div className='block sm:hidden'>
-            <p>Full-Stack Developement</p>
-            <p className='py-2'>Adapting</p>
-            <p>Yes</p>
+            <p>Collaborative</p>
+            <p className='py-2'>Full-Stack Developement</p>
+            <p>Adapting</p>
           </div>
         </div>
 
@@ -67,43 +67,21 @@ const resume = () => {
 
         {/* Skills */}
         <div className='text-center py-4'>
-          <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
-          <p className='py-2'>
-            <span className='font-bold'>Languages</span>
-            <span className='px-2'>|</span>Python
-            <span className='px-2'>|</span>Javascript
-            <span className='px-2'>|</span>Java
-            <span className='px-2'>|</span>C++
-            <span className='px-2'>|</span>HTML
-            <span className='px-2'>|</span>CSS
-            <span className='px-2'>|</span>R
-            <span className='px-2'>|</span>Solidity
-          </p>
-          <p className='py-2'>
-            <span className='font-bold'>Frameworks</span>
-            <span className='px-2'>|</span>React.js
-            <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span>Node.js
-            <span className='px-2'>|</span>React Native
-            <span className='px-2'>|</span>Pandas
-            <span className='px-2'>|</span>NumPy
-            <span className='px-2'>|</span>Flask
-            <span className='px-2'>|</span>Selenium
-            <span className='px-2'>|</span>OpenCV
-          </p>
-          <p className='py-2'>
-            <span className='font-bold'>Tools</span>
-            <span className='px-2'>|</span>AWS
-            <span className='px-2'>|</span>Firebase
-            <span className='px-2'>|</span>MongoDB
-            <span className='px-2'>|</span>DynamoDB
-            <span className='px-2'>|</span>Git
-            <span className='px-2'>|</span>Docker
-            <span className='px-2'>|</span>Linux
-            <span className='px-2'>|</span>Agile
-            <span className='px-2'>|</span>Truth 
-            <span className='px-2'>|</span>MS Office Suite
-          </p>
+          <h5 className='underline text-[18px] py-2'>Skills</h5>
+          <div className='flex flex-col items-center justify-center'>
+            <p className='flex flex-wrap justify-center gap-2 py-2'>
+              <span className='font-bold'>Languages:</span>
+              <span> Python | Javascript | Java | C++ | HTML | CSS | R | Solidity</span>
+            </p>
+            <p className='flex flex-wrap justify-center gap-2 py-2'>
+              <span className='font-bold'>Frameworks:</span>
+              <span> React.js | Tailwind | Node.js | Flask | OpenCV | React Native | Pandas | NumPy | Selenium</span>
+            </p>
+            <p className='flex flex-wrap justify-center gap-2 py-2'>
+              <span className='font-bold'>Tools:</span>
+              <span> AWS | Firebase | MongoDB | DynamoDB | Git | Docker | Linux | Agile</span>
+            </p>
+          </div>
         </div>
 
         <h5 className='text-center underline text-[18px] py-4'>
@@ -188,4 +166,4 @@ const resume = () => {
   );
 };
 
-export default resume;
+export default experience;
