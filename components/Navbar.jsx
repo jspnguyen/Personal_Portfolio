@@ -91,7 +91,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#121212] p-10 ease-in duration-500'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }
         >
@@ -101,8 +101,8 @@ const Navbar = () => {
                 <a>
                   <Image
                     src={NavLogo}
-                    width='87'
-                    height='35'
+                    width='47'
+                    height='45'
                     alt='/'
                   />
                 </a>
@@ -114,9 +114,9 @@ const Navbar = () => {
                 <AiOutlineClose />
               </div>
             </div>
-            <div className='border-b border-gray-300 my-4'>
+            <div className='border-b border-[#BB86FC] my-4'>
               <p className='w-[85%] md:w-[90%] py-4'>
-                Let&#39;s build!
+                What&#39;s up!
               </p>
             </div>
           </div>
@@ -142,9 +142,9 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href='/resume'>
+              <Link href='/experience'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Resume
+                  Experience
                 </li>
               </Link>
               {/* <Link href='/#contact'>
@@ -154,7 +154,7 @@ const Navbar = () => {
               </Link> */}
             </ul>
             <div className='pt-40'>
-              <p className='uppercase tracking-widest text-[#5651e5]'>
+              <p className='uppercase tracking-widest text-[#3700B3]'>
                 Let&#39;s Connect
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
@@ -184,7 +184,7 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </Link> */}
-                <Link href='/resume'>
+                <Link href='/experience'>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-[#BB86FC] p-3 cursor-pointer hover:scale-105 ease-in duration-300'
