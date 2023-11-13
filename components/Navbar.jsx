@@ -44,7 +44,7 @@ const Navbar = () => {
               alt='/'
               width='60'
               height='60'
-              className='cursor-pointer'
+              className='cursor-pointer hover:animate-spin'
             />
           </a>
         </Link>
