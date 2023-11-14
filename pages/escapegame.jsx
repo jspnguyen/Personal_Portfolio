@@ -27,7 +27,11 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            LOREM IPSUM
+            Escape the Dungeon was a game developed fully in Java that includes random dungeon generation by seed. The game has 9 floors which the player
+            must complete through exploring the dungeons and finding the exits. However, monsters randomly roam the dungeon and the player will eventually
+            run into these monsters and will have to defeat them. The combat system is turn based and has a similar style to that of Pokemon. Players have 
+            limited health and damage but can pick up weapons and potions that they find while exploring the dungeon. Lastly, the game also includes a 
+            save and load system as well.
           </p>
           {/* <a
             href=''

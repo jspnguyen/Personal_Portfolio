@@ -9,7 +9,7 @@ const experience = () => {
         <title>Joseph&#39;s Experience</title>
         <meta
           name='description'
-          content='I&#39;m a Software Engineer ^-^'
+          content='Joseph&#39;s Experience'
         />
         <link rel='icon' href='/fav.ico' />
       </Head>

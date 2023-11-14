@@ -27,7 +27,12 @@ const twitch = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            LOREM IPSUM
+            This project was a collaboration with 6 other students and 2 professors to research an economic field that has never been touched before.
+            We utilized Requests, BeautifulSoup4, and OCR to scrape over 20 years worth of rules from the SEC website and cleaned the data for
+            easier processing using RegEx. Using this text data, we analyzed for correlations of words appliyng Data Science principles as well as 
+            visualized our data with MatPlotLib to observe for interesting trends that occurred over time. We ran models using Sklearn and analyzed 
+            sentiments of texts and comments using Spacy. At the end of our research, we organized one last major concluding poster and presented
+            our findings at a Data Science convention with over a hundred students and professors.
           </p>
           <a
             href='https://sec-rule-project.github.io/'
@@ -59,6 +64,12 @@ const twitch = () => {
               </p>
               <p className='text-[#BB86FC] py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Spacy
+              </p>
+              <p className='text-[#BB86FC] py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Requests
+              </p>
+              <p className='text-[#BB86FC] py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> OCR
               </p>
             </div>
           </div>

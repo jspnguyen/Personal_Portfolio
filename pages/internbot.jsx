@@ -27,8 +27,11 @@ const property = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This bot was built using Discord.py and gets data 
-            from scraping https://github.com/SimplifyJobs/Summer2024-Internships.
+            This bot was created with the purpose of helping Computer Science students find tech internships and provide a way for them
+            to check for new postings while on Discord. As a student looking for internships myself, I understood the struggle of going 
+            through many sites to look for new internships and wanted to aggregate it all onto Discord. I built this bot using Discord.py 
+            and scraped data from Simplify's lists of Tech Internships on GitHub using Requests and BeautifulSoup4.
+            Credit: https://github.com/SimplifyJobs/Summer2024-Internships.
           </p>
           <a
             href='https://github.com/jspnguyen/InternshipBot'
