@@ -27,12 +27,12 @@ const netflix = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Healthy Habits was a project developed by 3 colleagues and I for CalHack 10.0. Our project was a web app that was meant to be run in people's 
+            Healthy Habits was a project developed by 3 colleagues and I for CalHack 10.0. Our project was a web app that was meant to be run in people&#39;s 
             background as they worked. The goal was to create a tool that would help students and workers who spend prolonged periods of time on the computer 
-            better manage when they should take breaks. We would take in facial data through their webcam with OpenCV and would send this data through HumeAI's API to 
+            better manage when they should take breaks. We would take in facial data through their webcam with OpenCV and would send this data through HumeAI&#39;s API to 
             get different scores for each emotions. If certain emotions were too high for prolonged periods of time, we would notify the user and suggest them
             to take a break. We also included a feature for users to email themselves either the raw data from each session or a report that was generated through
-            processing their data through OpenAI's LLM. My responsibility was to develop the computer vision portion as well as a majority of the backend to ensure the
+            processing their data through OpenAI&#39;s LLM. My responsibility was to develop the computer vision portion as well as a majority of the backend to ensure the
             data was properly collected and processed. I also assisted with some of the front-end as well with webcam integration and formatting.
           </p>
           <a
