@@ -13,10 +13,10 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-[#CEEC97]'>
-          Hey there, I&#39;m Joseph Nguyen, a Computer Science student currently studying at UC Berkeley. 
-          I have experience in different areas of development such as: Full-Stack, 
-          Mobile, Database, and Computer Vision. I enjoy building all kinds of projects that rely
-          on different stacks, and as of lately I&#39;ve been working on Discord bots.
+          Hey there, I&#39;m Joseph Nguyen, a Computer Science and Data Science student currently studying at UC Berkeley. 
+          I have experience in different areas of development such as: Full-Stack,
+          Database, Machine Learning, and Computer Vision. I enjoy building all kinds of projects that rely
+          on different stacks, and as of lately I&#39;ve been working on Blockchain.
           </p>
           <p className='py-2 text-[#CEEC97]'>
             In my free time, I enjoy playing badminton with my friends 

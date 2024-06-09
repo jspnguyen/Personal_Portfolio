@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Joseph&#39;s Potfolio</title>
-        <meta name="description" content="Hey, I'm Joseph, a Computer Science student at UC Berkeley." />
+        <meta name="description" content="Hey, I'm Joseph, a Computer Science and Data Science student at UC Berkeley." />
         <link rel="icon" href="/fav.ico" />
       </Head>
     <Main />
