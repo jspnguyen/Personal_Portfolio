@@ -16,7 +16,7 @@ const Main = () => {
           </h1>
           <h1 className='py-2 text-[#BB86FC]'>A Software Engineer</h1>
           <p className='py-4 text-[#BB86FC] sm:max-w-[70%] m-auto'>
-            I&#39;m a Computer Science and Data Sciencestudent at UC Berkeley interested 
+            I&#39;m a Computer Science and Data Science student at UC Berkeley interested 
             in Full-Stack development, Machine Learning, and Computer Vision.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
